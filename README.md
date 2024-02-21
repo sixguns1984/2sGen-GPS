@@ -4,7 +4,7 @@ Junfeng Luo, Hao Wu, for the Alzheimer’s Disease Neuroimaging Initiative, Ganq
 
 StQTL_2sGenGPS (Stationary temporal quantitative trait locus and two-stage genetic Granger temporal causality study) includes two novel multi-omics or multi-modal data integrative analysis frameworks (StQTL and 2sGenGPS) to identify temporal eQTLs (teQTLs) in genome-wide scale and unveil dynamic eQTLs exhibiting significant variation over time for stationary longitudinal gene expressions in longitudinal cohort studies (StQTL), and inferring temporal causality associations between longitudinal gene expression and longitudinal phenotypes using teQTLs in biomedical applications.
 
-![StQTL_2sGenGPS](https://github.com/sixguns1984/StQTL-2sGenGPS)
+
 Overview of StQTL_2sGenGPS. \
 <sup>See manuscript 'Temporal quantitative trait loci analysis and causal inference unveils novel genetic drivers for the progression in neurodegenerative disease' for the illustration of StQTL_2sGenGPS. <sup>
 
@@ -24,7 +24,7 @@ Overview of StQTL_2sGenGPS. \
 *polynomial_regression.py*: Componets of the teQTL based on polynomial regression model in tensor\
 *AR1_main.py*: Example for teQTL analysis using first order Auto Regression\
 *AR1.py*: Componets of teQTL analysis using first order Auto Regression\ 
-*./StQTL_2sGenGPS/example*: Example data for StQTL_2sGenGPS\
-*./StQTL_2sGenGPS/data/blood_cis_teQTL.csv*: Blood cis-teQTLs at FDR<0.05 comprising dynamic and additive cis-eQTLs by St-QTL, including coefficients for genetic predicting longitudinal gene expressions using teQTLs.
+*./StQTL_2sGenGPS/example*: Example data for StQTL_2sGenGPS
+
 
 \* Correspondence author
