@@ -24,7 +24,7 @@ Overview of StQTL_2sGenGPS. \
 *polynomial_regression.py*: Componets of the teQTL based on polynomial regression model in tensor\
 *AR1_main.py*: Example for teQTL analysis using first order Auto Regression\
 *AR1.py*: Componets of teQTL analysis using first order Auto Regression\ 
-*./StQTL_2sGenGPS/example*: Example data for StQTL_2sGenGPS
+*./StQTL_2sGenGPS/example*: Example data for StQTL_2sGenGPS.
 
 
 \* Correspondence author
