@@ -1,5 +1,5 @@
 """
-Componets of the StQTL
+Componets of the MPTGA
 """
 import numpy as np
 import prepare as pp
