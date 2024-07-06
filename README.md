@@ -1,4 +1,4 @@
-# StQTL_2sGenGPS
+# 2sGen-GPS
 
 2sGen-GPS (two-stage genetic Granger temporal causality study) is a novel multi-omics or multi-modal data integrative analysis frameworks to identify temporal eQTLs (teQTLs) in genome-wide scale and unveil dynamic eQTLs exhibiting significant variation over time for stationary longitudinal gene expressions in longitudinal cohort studies (MPTGA), and inferring temporal causality associations between longitudinal gene expression and longitudinal phenotypes using teQTLs in biomedical applications.
 
