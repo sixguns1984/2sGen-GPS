@@ -1,9 +1,9 @@
 """
-Example for StQTL analysis
+Example for MPTGA analysis
 """
 import sys
-sys.path.append('./StQTL_2sGenGPS')
-import StQTL as st
+sys.path.append('./2sGen-GPS')
+import mptga as st
 import time
 import numpy as np
 import pandas as pd
