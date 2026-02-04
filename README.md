@@ -5,7 +5,7 @@
 Overview of 2sGen-GPS. \
 <sup>Figure below shows the schematic of the 2sGen-GPS approaches. <sup>
 
-![Schematic of the 2sGen-GPS approaches](https://github.com/sixguns1984/StQTL_2sGenGPS/blob/main/workflow.png)
+![Schematic of the 2sGen-GPS approaches]([https://github.com/sixguns1984/StQTL_2sGenGPS/blob/main/workflow.png](https://github.com/sixguns1984/2sGen-GPS/blob/main/flowchart%E5%89%AF%E6%9C%AC.tif))
 
 
 ## Files
