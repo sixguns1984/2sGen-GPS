@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+pyarrow>=12.0
+matplotlib>=3.7
+bed-reader>=0.2.36
+pytest>=7.0
