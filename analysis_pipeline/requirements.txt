@@ -1,0 +1,18 @@
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.1
+statsmodels>=0.13
+pyarrow>=10
+duckdb>=0.9
+bed-reader>=1.0
+tqdm>=4.66
+psutil>=5.9
+toml>=0.10
+threadpoolctl>=3.1
+matplotlib>=3.6
+pytest>=7
+
+# PyTorch is required by the MPTGA/CTAR GPU engines but is intentionally not
+# pinned here because the correct wheel/conda package depends on the server's
+# CUDA driver. Install a compatible PyTorch build separately.
