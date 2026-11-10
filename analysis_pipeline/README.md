@@ -163,5 +163,3 @@ Original submission's dynamic/additive subclassification, MoCA progression, CSF-
 1. This is a **code-only public release**. No restricted genotype, RNA-seq, proteomic, MRI or clinical records are included.
 2. Absolute original server roots remain in some default arguments; override `--root` and data paths on another server.
 3. Genome-wide full AMP-PD run requires substantial HPC resources and GPU/PLINK/R dependencies.
-4. Source scripts were not all executed end-to-end in this packaging environment. The synthetic package example tests the standalone pip interface only.
-5. Prior to public submission verify final LD cutoff, selected lag SC comparability, and final five-region postmortem data preparation against the executed production logs.
