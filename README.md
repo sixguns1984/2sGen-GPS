@@ -141,7 +141,5 @@ This GitHub release contains **code and synthetic examples only**. Individual-le
 
 Distributed under the [MIT License](LICENSE).
 
-## Version and reproducibility
 
-Version `2.0.0` is the reorganized release candidate based on the supplied November 2026 source archive. Manuscript stage-specific scripts retain historical filenames to preserve their parameters and filesystem conventions. Original statistics have **not** been recomputed here with the restricted full AMP-PD datasets. For a frozen manuscript release, create a GitHub tag and archive DOI after checking the final server-side paths and datasets.
 
