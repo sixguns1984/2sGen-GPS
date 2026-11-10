@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "2sGen-GPS"
+version = "2.0.0"
+description = "Continuous-time temporal cis-eQTL mapping and longitudinal genetically informed association analysis"
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "2sGen-GPS contributors"}]
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scipy>=1.9", "statsmodels>=0.13", "scikit-learn>=1.1", "torch>=2.0"]
+[project.optional-dependencies]
+parquet = ["pyarrow>=10"]
+pipeline = ["pyarrow>=10", "duckdb>=0.9", "bed-reader>=1.0", "tqdm>=4.66", "psutil>=5.9", "toml>=0.10", "threadpoolctl>=3.1", "matplotlib>=3.6"]
+dev = ["pytest>=7", "build>=1"]
+[project.scripts]
+2sgengps = "gengps.cli:main"
+gps = "gengps.cli:main"
+[tool.setuptools.packages.find]
+include = ["gengps*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
